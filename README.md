@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Project Name: Neev - Healthcare Technology (Clone/Prototype)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- **Entry Animation**: The page loads with animations on the first render to make the loading experience smoother.
+- **Scroll Animations**: Sectional elements animate as you scroll, providing a smooth and dynamic user experience. These animations are currently missing and will be implemented in future updates.
+- **Hover Animations on Images**: Images throughout the platform include hover animations to create a more interactive and visually appealing experience.
+- **Sticky Navigation Bar**: The navigation bar is sticky, ensuring the Neev branding stays visible while scrolling. Upon scrolling, the logo becomes smaller and the background becomes translucent for a sleek, modern effect.
+- **Hover Animations on Buttons**: Buttons throughout the platform have hover animations to improve interactivity and user engagement.
+- **Card Animations**: Interactive hover animations are applied to cards for a better user interface, allowing users to visually interact with elements in a more engaging way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+- **React**: Frontend JavaScript library for building the user interface.
+- **Framer Motion**: A popular animation library for React that allows smooth and declarative animations.
+- **Tailwind CSS**: A utility-first CSS framework to style the application with ease.
+- **Vite**: A next-generation build tool for faster development and production builds.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository to your local machine:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/yourusername/neev.git
+   ```
